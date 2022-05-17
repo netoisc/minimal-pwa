@@ -1,10 +1,11 @@
 
-Minimal PWA
+# PWA básica
+
 ----
 
-> Very simple code to demonstrate Progressive Web Apps.
+> Ejemplo básico de una PWA. La app hace un **fetch** de un json y se almacena en un caché local
 
-### Usage
+## Uso local
 
 This demo app runs on `localhost`.
 
@@ -16,6 +17,10 @@ http-server -c-1 # with cache disabled
 Then open <http://localhost:8080> with Chrome.
 
 Change `cacheStorageKey` in `sw.js` to update app version.
+
+## Deploy automático
+
+Al no requerir en este momento de un servidor, se usa [Netlify](app.netlify.com) para servir la aplicación en una URL pública (con https)
 
 ### Trouble shooting
 
